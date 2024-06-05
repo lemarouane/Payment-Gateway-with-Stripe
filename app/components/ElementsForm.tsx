@@ -161,7 +161,7 @@ function CheckoutForm(): JSX.Element {
             !stripe
           }
         >
-          Donate {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
+          Pay {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
         </button>
       </form>
       <PaymentStatus status={payment.status} />
