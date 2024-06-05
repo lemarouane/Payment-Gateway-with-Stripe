@@ -83,10 +83,7 @@ header {
   top: 45px;
 }
 
-.logo img {
-  height: 20px;
-  margin-bottom: 52px;
-}
+
 
 ul,
 li {
@@ -104,9 +101,9 @@ li {
 
 .card {
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
-  padding: 12px;
+  padding: 20px;
   height: 320px;
   flex: 0 0 33%;
   min-width: 304px;
