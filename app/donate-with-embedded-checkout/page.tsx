@@ -10,7 +10,7 @@ export default function DonatePage(): JSX.Element {
   return (
     <div className="page-container">
       <h1>Pay with embedded Checkout</h1>
-      <p>Pay to our project 💖</p>
+     
       <CheckoutForm uiMode="embedded" />
     </div>
   );

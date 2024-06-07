@@ -3,14 +3,13 @@ import type { Metadata } from "next";
 import CheckoutForm from "@/components/CheckoutForm";
 
 export const metadata: Metadata = {
-  title: "Donate with hosted Checkout | Next.js + TypeScript Example",
+  title: "Pay with hosted Checkout",
 };
 
 export default function DonatePage(): JSX.Element {
   return (
     <div className="page-container">
-      <h1>Pay with hosted Checkout</h1>
-      <p>Pay to our project 💖</p>
+      <h1>Pay with Stripe Checkout</h1>
       <CheckoutForm uiMode="hosted" />
     </div>
   );

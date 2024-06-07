@@ -60,7 +60,7 @@ export default function CheckoutForm(props: CheckoutFormProps): JSX.Element {
           onChange={handleInputChange}
           value={input.customDonation}
         />
-        <StripeTestCards />
+        <StripeTestCards/>
         <button
           className="checkout-style-background"
           type="submit"

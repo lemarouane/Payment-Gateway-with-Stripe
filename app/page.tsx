@@ -23,11 +23,11 @@ export default function IndexPage(): JSX.Element {
           href="/donate-with-checkout"
           className="card checkout-style-background"
         >
-          <h2 className="bottom">Pay with hosted Checkout (Stripe-Paypal)</h2>
+          <h2 className="bottom">Pay with Stripe Checkout </h2>
           <img src="/checkout-one-time-payments.svg" />
         </Link>
       </li>
-      
+
     </ul>
   );
 }
